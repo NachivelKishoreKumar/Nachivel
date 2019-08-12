@@ -1,0 +1,10 @@
+list1=["nachivel","kishore","kumar"]
+print("the patients are:",list1)
+list1.append(input("enter the new patient1:"))
+list1.append(input("enter the other new patient:"))
+print(list1)
+n=int(input("enter the patient to be discharged:"))
+list1.pop(n)
+vip=input("enter the VIP patient name:")
+list1.insert(0,vip)
+print("the patient list is:",list1)
